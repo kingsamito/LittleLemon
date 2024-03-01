@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    font-family: "Markazi Text";
+}
+
+body {
+    margin: 0;
+}
+
+.hero-section {
+    position: relative;
+    background-color: #495E57;
+    padding: 50px 150px;
+    height: 400px;
+}
+
+.hero-section img {
+    position: absolute;
+    border-radius: 20px;
+    right: 150px;
+    top: 30px;
+}
+
+.details-container {
+    width: 400px;
+}
+
+.details-container h1 {
+    color: #f4ce14;
+    font-size: 70px;
+    margin: 0;
+}
+
+.details-container h3 {
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.details-container p {
+    color: white;
+    font-size: 24px;
+}
+
+.details-container button {
+    background-color: #f4ce14;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 40px;
+    font-size: 20px;
+}
+
+.week-special {
+    margin-top: 170px;
+    padding: 0 150px;
+}
+
+.week-special-text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.week-special-text-container h3 {
+    font-size: 50px;
+    margin: 0;
+    color: #495E57;
+}
+
+.week-special-text-container button {
+    background-color: #f4ce14;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 40px;
+    font-size: 25px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+}
+
+.card>div {
+    margin-top: -4px;
+    padding: 5px 15px 10px;
+}
+
+.card>div:hover {
+    background-color: #495e5736;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+}
+
+.card img {
+    width: 100%;
+}
+
+.namePrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.namePrice h3 {
+    border-bottom: 1px solid #495E57;
+}
+
+.namePrice p {
+    color: #796451;
+    font-weight: 800;
+}
+
+.card p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card button {
+    background-color: #f4ce14;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.testimonials {
+    position: relative;
+    background-color: #495E57;
+    padding: 50px 150px;
+    height: 500px;
+}
+
+.testimonials h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.our-story {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-story>div {
+    flex-basis: 60%;
+    text-align: justify;
+}
+
+.our-story h1 {
+    color: #495E57;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.our-story h2 {
+    color: #f4ce14;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.our-story h3 {
+    color: #495E57;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.our-story p {
+    color: #495E57;
+    font-size: 24px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.form-section-left img {
+    height: 600px;
+}
+
+.form-section-right {
+    width: 500px;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-section-right>div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.form-section-right>div label {
+    font-size: 30px;
+    color: #495E57;
+}
+
+.form-section-right>div input,
+.form-section-right>div select {
+    padding: 10px;
+    border: 1px solid #495e578c;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.form-section-right button {
+    background-color: #f4ce14;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}

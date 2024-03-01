@@ -1,0 +1,85 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.link-container {
+    display: flex;
+    gap: 30px;
+}
+
+.link-container a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #495E57;
+}
+
+.link-container a:hover {
+    color: #f4ce14;
+}
+
+.not-available {
+    cursor: not-allowed;
+}
+
+.not-available:hover::before {
+    content: attr(data-hover-text);
+    display: block;
+    position: absolute;
+    top: 30px;
+    font-size: 15px;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1;
+    color: red;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 30% auto auto auto;
+    position: relative;
+    background-color: #495E57;
+    padding: 50px 150px;
+    height: 400px;
+    align-items: flex-start;
+}
+
+footer img {
+    height: 300px;
+}
+
+.site-map h1,
+.contact h1,
+.contact-with h1 {
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+}
+
+.site-map>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.site-map>div a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.contact p,
+.contact-with p {
+    font-size: 18px;
+    color: white;
+}
